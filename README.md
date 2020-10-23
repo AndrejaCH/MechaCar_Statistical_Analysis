@@ -101,11 +101,13 @@ In order to run this statistical test, we need the data from:
 - vehicle ID
 - exhaust system emissions data
 - transmission efficiency data
-and the input data that must be validated prior to using the statistical test:
+
+Additonally the input data that must be validated prior to using the statistical test:
 
 -	The dependent variable is numerical and continuous, and the independent variables are categorical.
 -	The dependent variable is considered to be normally distributed.
 -	The variance among each group should be very similar.
+
 ## References
 -	(1) Module 15. Statistics and R, https://courses.bootcampspot.com/courses/200/external_tools/58, Trilogy Education Services, 2000, Web 23 Oct 2020.
 
