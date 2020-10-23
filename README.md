@@ -24,7 +24,7 @@ Null hypothesis and alternative hypothesis for linear regression. At the multipl
 **Ha:** The slope of the linear model is not zero, or m ≠ 0 (If there is significant linear relationship, each dependent value would not be determined by random chance and error. Therefore, our linear model would not be a flat line with a slope greater than 0)
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-To determine which variables, provide a non-random amount of variance to the mpg value we have to look at their individual **p-value**. If the p-value is below 0.05 is statistically unlikely to provide random amounts of variance to the linear model, meaning that those variables have a significant impact on mpg. According to our results (Figure 1) ground clearance (p-value = 5.21 x 10-8), vehicle length (p-value = 2.60 x 10-12), as well as intercept (p-value = 5.08 x 10-8) provided a non-random amount of variance to the mpg values in the dataset. 
+To determine which variables, provide a non-random amount of variance to the mpg value we have to look at their individual **p-value**. If the p-value is below 0.05 is statistically unlikely to provide random amounts of variance to the linear model, meaning that those variables have a significant impact on mpg. According to our results (Figure 1) **ground clearance** (p-value = 5.21 x 10-8), **vehicle length** (p-value = 2.60 x 10-12), as well as **intercept** (p-value = 5.08 x 10-8) provided a non-random amount of variance to the mpg values in the dataset. 
 When an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in the model. These variables may or may not be within our dataset and may still need to be collected or observed (Source 1: Module 15.7.3).
 #### Is the slope of the linear model considered to be zero? Why or why not?
 Based on our results *(Figure 1)* p-value is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there **is sufficient evidence to reject our null hypothesis**, which means that the slope of our linear model is **not** zero, meaning that there is **significant linear relationship** with our variables to the mpg [stating the sentence??] (Source 1: Module 15.7.2).
@@ -62,9 +62,11 @@ Figure 2: Summary Statistics on Suspension Coils for Each Lot Individually.
 ### D3: T-Tests on Suspension Coils
 #### Briefly summarize your interpretation and findings for the t-test results
 I am performing **one-sample t-test**, that is used to determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI. At the t-test, we are establishing the following hypothesis:
-H0: There is no statistical difference between the suspension coil data set mean and its presumed population mean = 1,500 PSI.
 
-Ha: There is statistical difference between the suspension coil data set mean and its presumed population mean = 1,500 PSI.
+**H0:** There is no statistical difference between the suspension coil data set mean and its presumed population mean = 1,500 PSI.
+
+**Ha:** There is statistical difference between the suspension coil data set mean and its presumed population mean = 1,500 PSI.
+
 In order to reject or fail to reject our null hypothesis we have to look at the p-value that will determine if there is a statistical difference between the observed sample mean and its presumed population mean.
 According to the result *(Figure 3)* p-value for all manufacturing lots is 0.5117, for lot 1 = 0.9048, for lot 2 = 0.3451, and for lot 3 = 0.637. In all cases p-value is above the assumed significance level of 0.05. Therefore, there is not enough evidence, **we fail to reject to reject the null hypothesis**, and we can confirm that our means are *not* statistically different. 
 <p align="center">
