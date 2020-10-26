@@ -51,7 +51,7 @@ Figure 1: Linear Regression Results.
 Figure 2: Summary Statistics on Suspension Coils for All Lots.
 </p>
 
-**Each lot individually** The current manufacturing data partially meet this design specification for each lot separately. According to the results *(Figure 2)* shows that Lot 1 and Lot 2 meet the design specification with a variance is 1.15 and 10.13 PSI respectively, and it is within requirements of not exceeding variance 100 PSI. Lot 3 does not meet the design specification, because of its variance of 220.01 PSI and that exceed the requirements variance of 100 PSI. 
+**Each lot individually** The current manufacturing data partially meet this design specification for each lot separately. According to the results *(Figure 2)*, it shows that Lot 1 and Lot 2 meet the design specification with a variance is 1.15 and 10.13 PSI respectively, and it is within requirements of not exceeding variance 100 PSI. Lot 3 does not meet the design specification, because of its variance of 220.01 PSI and that exceed the requirements variance of 100 PSI. 
 
 <p align="center">
 <img src="Graphics/D2LotSummary.PNG" width="45%" height="45%">
@@ -92,7 +92,7 @@ Figure 3: t-Test for Each Lot Individually.
 
 ### D4 Study Design: MechaCar vs Competition
 #### What metric or metrics are you going to test?
-Electric vehicles and environmental awareness are on the rise and customers became more cautious about pollution and car emissions. While many customers still cannot afford or won’t invest in the electric vehicle, MechaCar can provide a good alternative. Based on that, I would suggest testing for the following metrics to compare MechaCar against competition: a comparison of a single dependent variable **exhaust system emissions means** across a single independent variable **transmission efficiency** with multiple groups -- in our case -- the competition data.
+Electric vehicles and environmental awareness are on the rise and customers are more cautious about pollution and car emissions. While many customers still cannot afford or won’t invest in the electric vehicle, MechaCar can provide a good alternative. Based on that, I would suggest testing for the following metrics to compare MechaCar against competition: a comparison of a single dependent variable **exhaust system emissions means** across a single independent variable **transmission efficiency** with multiple groups -- in our case -- the competition data.
 #### What is the null hypothesis or alternative hypothesis?
 To compare MachaCar against competition I would set up the following hypotheses: 
 
