@@ -15,11 +15,12 @@ Languages: **R**
 
 ## Results & Analysis
 ### D1: Linear Regression to Predict MPG 
-#### Statistical question and hypotheses 
-**Statistical question** 
+
+#### Statistical question
 With multiple linear regression model we are identifying which variables (vehicle weight, spoiler angle, ground clearance, AWD and vehicle length in our case) in the dataset predict the mpg of MechaCar prototypes. In other words, we are asking if there is a relationship between variables and mpg of MechaCar prototypes. 
 
-**Null hypothesis and alternative hypothesis for linear regression** 
+#### Null hypothesis and alternative hypothesis for linear regression
+
 With multiple linear regression model, we are establishing the following hypothesis:
 
 **H0:** The slope of the linear model is zero, or m = 0 (If there is no significant linear relationship, each dependent value would be determined by random chance and error. Therefore, our linear model would be a flat line with a slope of 0).
