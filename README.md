@@ -2,7 +2,7 @@
 *Statistics and R*
 
 ## Project Overview
-For this project I am performing statistical testing in programing language R for MechaCar car company. Statistical tests provide data-based insight on the company performance and suggest additional testing for comparison of MechaCar company against its competition.
+For this project I am performing statistical testing in programming language R for MechaCar car company. Statistical tests provide data-based insight on the company performance and suggest additional testing for comparison of MechaCar company against its competition.
 
 ## Resources
 Data Source: 
