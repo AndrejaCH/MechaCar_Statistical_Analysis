@@ -92,7 +92,7 @@ According to the result *(Figure 3)* p-value for all manufacturing lots is 0.511
 <img src="Graphics/D3Lot3.PNG" width="40%" height="40%">
 </p>
 <p align="center">
-<i>Figure 4: t-Test for Each Lot Individually.</i>
+<i>Figure 5: t-Test for Each Lot Individually.</i>
 </p>
 
 ### Study Design: MechaCar vs Competition
