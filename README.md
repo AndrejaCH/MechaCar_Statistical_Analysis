@@ -39,7 +39,7 @@ To determine if this linear model predict mpg of MechaCar prototypes effectively
 <img src="Graphics/D1p-valueANDr-squared.PNG" width="60%" height="60%">
 </p>
 <p align="center">
-Figure 1: Linear Regression Results.
+<i>Figure 1: Linear Regression Results.</i>
 </p>
 
 ### Summary Statistics on Suspension Coils
@@ -51,7 +51,7 @@ The current manufacturing data meet this design specification for all manufactur
 <img src="Graphics/D2TotalSummary.PNG" width="45%" height="45%">
 </p>
 <p align="center">
-Figure 2: Summary Statistics on Suspension Coils for All Lots.
+<i>Figure 2: Summary Statistics on Suspension Coils for All Lots.</i>
 </p>
 
 **Each lot individually**
@@ -62,7 +62,7 @@ The current manufacturing data partially meet this design specification for each
 <img src="Graphics/D2LotSummary.PNG" width="45%" height="45%">
 </p>
 <p align="center">
-Figure 2: Summary Statistics on Suspension Coils for Each Lot Individually.
+<i>Figure 3: Summary Statistics on Suspension Coils for Each Lot Individually.</i>
 </p>
 
 
@@ -81,7 +81,7 @@ According to the result *(Figure 3)* p-value for all manufacturing lots is 0.511
 <img src="Graphics/D3AllLots.PNG" width="50%" height="50%"> 
 </p>
 <p align="center">
-Figure 3: t-Test for All Lots Total.
+<i>Figure 4: t-Test for All Lots Total.</i>
 </p>
 
 <p align="center">
@@ -92,7 +92,7 @@ Figure 3: t-Test for All Lots Total.
 <img src="Graphics/D3Lot3.PNG" width="40%" height="40%">
 </p>
 <p align="center">
-Figure 3: t-Test for Each Lot Individually.
+<i>Figure 4: t-Test for Each Lot Individually.</i>
 </p>
 
 ### Study Design: MechaCar vs Competition
