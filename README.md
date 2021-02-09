@@ -14,12 +14,12 @@ Software:
 - Languages: **R**
 
 ## Results & Analysis
-### D1: Linear Regression to Predict MPG 
+### Linear Regression to Predict MPG 
 
-#### Statistical question
+#### :question: Statistical question
 With multiple linear regression model we are identifying which variables (vehicle weight, spoiler angle, ground clearance, AWD and vehicle length in our case) in the dataset predict the mpg of MechaCar prototypes. In other words, we are asking if there is a relationship between variables and mpg of MechaCar prototypes. 
 
-#### Null hypothesis and alternative hypothesis for linear regression
+#### :heavy_check_mark: Null hypothesis and alternative hypothesis for linear regression
 
 With multiple linear regression model, we are establishing the following hypothesis:
 
@@ -42,7 +42,7 @@ To determine if this linear model predict mpg of MechaCar prototypes effectively
 Figure 1: Linear Regression Results.
 </p>
 
-### D2: Summary Statistics on Suspension Coils
+### Summary Statistics on Suspension Coils
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 **All lots** 
 
@@ -67,7 +67,7 @@ Figure 2: Summary Statistics on Suspension Coils for Each Lot Individually.
 
 
 
-### D3: T-Tests on Suspension Coils
+### T-Tests on Suspension Coils
 I am performing **one-sample t-test**, that is used to determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI. With the t-test, we are establishing the following hypothesis:
 
 **H0:** There is no statistical difference between the suspension coil data set mean and its presumed population mean of 1,500 PSI.
@@ -95,7 +95,7 @@ Figure 3: t-Test for All Lots Total.
 Figure 3: t-Test for Each Lot Individually.
 </p>
 
-### D4 Study Design: MechaCar vs Competition
+### Study Design: MechaCar vs Competition
 #### What metric or metrics are you going to test?
 Electric vehicles and environmental awareness are on the rise and customers are more cautious about pollution and car emissions. While many customers still cannot afford or won’t invest in the electric vehicle, MechaCar can provide a good alternative. Based on that, I would suggest testing for the following metrics to compare MechaCar against competition: a comparison of a single dependent variable **exhaust system emissions means** across a single independent variable **transmission efficiency** with multiple groups -- in our case -- the competition data.
 #### What is the null hypothesis or alternative hypothesis?
